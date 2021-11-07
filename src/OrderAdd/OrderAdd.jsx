@@ -53,7 +53,7 @@ function OrderAdd(props) {
             onChange={(e) => props.setOrderProp([e.target.value, "date"])}
           />
           <br></br>
-          <Button variant="outlined" onClick={() => props.addOrder(props.order),() => props.initialemptyOrder()}>הוספה</Button>
+          <Button variant="outlined" onClick={() => props.addOrder(props.order)}>הוספה</Button>
         </div>
       </Box>
     </div>
