@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.appBar{
+  align-items: center;
+}
+
+.logo{
+  width: 15vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.invitations{
+  box-shadow: 5px 5px 5px 5px gray;
+  padding-left: 10px !important;
+  
+}
+
+.home{
+  width: 100vw;
+  height: 100vh;
+}
+
+.orderCard{
+  margin: 10px;
+  width: 160px;
+  height: 130px;
+  padding: 10px;
+  
+}
+
+
+
+/* .css-1t6e9jv-MuiCardActions-root>:not(:first-of-type) {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+} */
+.css-46bh2p-MuiCardContent-root {
+  padding: 0 !important;
+}
+
+.floatLeft{
+  float: left;
+
+}
+
+.cardHeader{
+  padding-bottom: 20px;
+ width: 160px;
+ height: 40px;
+}
+
+.orderNum{
+  text-align: right !important;
+  float: right;
+
+}
+.orderBox{
+  text-align: right;
+  padding: 20px;
+}
+
+button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  margin: 6px;
+  width: 50px;
+  margin-top: 15px;
+}
+.linkHome{
+  margin-top: 10px;
+  color:white;
+}
